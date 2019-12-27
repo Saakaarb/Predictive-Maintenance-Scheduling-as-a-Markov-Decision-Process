@@ -1,5 +1,6 @@
 # Predictive Maintenance Scheduling of Aircraft
 Course Project- AA228/CS238, "Decision Making Under Uncertainity" by Prof. Mykel Kochenderfer, Stanford University
+The project was done in collaboration with Eleanore Jacquemet, MS candidate Mechanical Engineering,Stanford University.
 
 ## Introduction
 
@@ -19,3 +20,5 @@ solve it using several algorithms, exploring the comparison of
 average earned profits between an optimal maintenance pol-
 icy and other policies like a greedy policy, which is more com-
 monly used.
+
+
