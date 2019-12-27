@@ -23,7 +23,7 @@ monly used.
 
 This project is an attempt to frame the problem of optimizing maintenance planning looking into the future, as a Markov Decision Process. We model the problem as a two-aircraft problem, one of which has a higher return per passenger flown. The goal is to find the optimal "policy" or sequence of flying these aircraft(while the other is in maintenance) such that we may maximise profits earned by the carrier, even in the face of stochastic uncertainity of important variables like fuel price, load factor etc.
 
-Unlike previous attempts at similar work which attempt to maximise revenue, we wish to directly model and maximise profits earned by a carrier. The problem dynamics and equations are created from a mixture of modelled real-world historical data and some speculation, the speculative part being one drawback of the work in it's current form.
+Unlike previous attempts at similar work which attempt to maximise revenue, we wish to directly model and maximise profits earned by a carrier. The problem dynamics and equations are created from a mixture of modelled real-world historical data and some speculation, the speculative part being one drawback of the work in it's current form. Obtaining policies of action using the Forward Search and Policy Iteration Algorithms, we then compare the results obtained to a greedy policy, which is using the "best" aircraft(aircraft with maximum return per passenger, which yields more profits) until it can no longer fly due to mandatory maintenance requirement, and the carrier must use the older plane.
 
 Further details can be found in the write up included in the files in the repository.
 
