@@ -29,6 +29,6 @@ Using data from the past decade or so on several important metrics that affect
 
 - forward_search.py: File that reads real-world data from the file passengers.py and given certain parameters, calculates an optimal policy
 - passengers.py: Uses data from several sources including the [Bureau of Transport](https://www.bts.dot.gov/product/passenger-travel-facts-and-figures) 
-- Writeup.pdf: This is the final writeup for the course project, demonstrating results, drawbacks and future work. Refer to this for detailed explanations of every component of the project
+- AA228_finalpaper.pdf: This is the final writeup for the course project, demonstrating results, drawbacks and future work. Refer to this for detailed explanations of every component of the project
 
 
